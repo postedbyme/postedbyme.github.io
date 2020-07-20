@@ -1,0 +1,92 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 40px;
+  width: 100%;
+  z-index: 200;
+  background-color: #fff;
+}
+
+.toolbar .right {
+  margin: 0 5% 0 0;
+  float: right;
+}
+
+.toolbar a {
+  text-decoration: none;
+}
+
+.toolbar .right a {
+  float: right;
+  margin: 10px 10px;
+}
+
+#youtube {
+  margin-top: 4px;
+}
+#twitter {
+  margin-top: 3.5px;
+}
+#linkedin {
+  margin-top: 0px;
+}
+#github {
+  margin-top: 2.5px;
+}
+
+.toolbar .right a svg .social {
+  opacity: 0.5;
+  transition: opacity 0.5s ease-out;
+  -moz-transition: opacity 0.5s ease-out;
+  -webkit-transition: opacity 0.5s ease-out;
+  -o-transition: opacity 0.5s ease-out;
+}
+
+.toolbar .right a svg:hover .social {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 960px) {
+  .toolbar {
+    margin-left: 6%;
+  }
+  .toolbar .right {
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .toolbar {
+    margin-left: 4%;
+  }
+  .toolbar .right {
+    margin-right: 3%;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .toolbar {
+    margin-left: 3%;
+  }
+  .toolbar .right {
+    margin-right: 2%;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+}
+
+@media only screen and (max-width: 660px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 380px) {
+}
+
+@media only screen and (max-width: 340px) {
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
